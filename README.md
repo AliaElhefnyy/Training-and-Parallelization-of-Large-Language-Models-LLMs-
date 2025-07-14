@@ -34,10 +34,20 @@ Topics covered:
 📄 [Open Lab 2 Notebook](Lab_2_MLP_for_muliclassfication.ipynb)
 
 ---
+## 📚 Lab 3: Tokenization and Embeddings
+
+Topics covered:
+- Manual and subword tokenization (using HuggingFace Tokenizers)
+- Vocabulary building for language models
+- Embedding layers and how they represent tokens
+- Training a basic next-word prediction model
+- Visualizations for embeddings
+
+📄 [Open Lab 3 Notebook](Lab_3_Tokenization_and_Embeddings_for_Language_Modeling.ipynb)
 
 ## ⚙️ Installation
 
 To run the labs, install the following packages:
 
 ```bash
-pip install torch torchvision torchaudio matplotlib scikit-learn
+pip install torch torchvision torchaudio matplotlib scikit-learn transformers tokenizers seaborn
